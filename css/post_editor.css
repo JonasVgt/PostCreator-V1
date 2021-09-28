@@ -1,0 +1,51 @@
+body {
+  background-color: #212529;
+  color: #F8F9FA;
+}
+
+html {
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  padding: 3mm;
+  margin: auto;
+  min-height: 100vh;
+  max-width: 80%;
+  box-sizing: border-box;
+}
+
+input {
+  background-color: #343A40;
+  color: inherit;
+  font-size: inherit;
+  border: inherit;
+}
+
+textarea {
+  background-color: #343A40;
+  color: inherit;
+  border: inherit;
+  resize: vertical;
+}
+
+.text_input {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}

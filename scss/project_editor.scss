@@ -1,0 +1,45 @@
+@import "master";
+@import "input_fields";
+
+.post_preview {
+  margin: 3mm 0;
+  background-color: $color-background-secondary;
+  padding: 3mm;
+  display: flex;
+
+  .left{
+    min-width: 10mm;
+    width: 5%;
+    margin-right: 2mm;
+    display: flex;
+    flex-direction: column;
+
+    h2{
+      margin: 0;
+      text-align: center;
+    }
+
+    button{
+      width: 100%;
+      border: inherit;
+      padding: 0;
+      flex-grow: 10;
+      color: inherit;
+      background-color: inherit;
+      visibility: hidden;
+
+    }
+
+    button:hover{
+      cursor: pointer;
+    }
+
+
+  }
+
+
+}
+
+.post_preview:hover button{
+    visibility: visible;
+}

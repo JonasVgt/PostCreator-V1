@@ -1,0 +1,81 @@
+body {
+  background-color: #212529;
+  color: #F8F9FA;
+}
+
+html {
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  padding: 3mm;
+  margin: auto;
+  min-height: 100vh;
+  max-width: 80%;
+  box-sizing: border-box;
+}
+
+input {
+  background-color: #343A40;
+  color: inherit;
+  font-size: inherit;
+  border: inherit;
+}
+
+textarea {
+  background-color: #343A40;
+  color: inherit;
+  border: inherit;
+  resize: vertical;
+}
+
+.text_input {
+  width: 100%;
+}
+
+.post_preview {
+  margin: 3mm 0;
+  background-color: #343A40;
+  padding: 3mm;
+  display: flex;
+}
+.post_preview .left {
+  min-width: 10mm;
+  width: 5%;
+  margin-right: 2mm;
+  display: flex;
+  flex-direction: column;
+}
+.post_preview .left h2 {
+  margin: 0;
+  text-align: center;
+}
+.post_preview .left button {
+  width: 100%;
+  border: inherit;
+  padding: 0;
+  flex-grow: 10;
+  color: inherit;
+  background-color: inherit;
+  visibility: hidden;
+}
+.post_preview .left button:hover {
+  cursor: pointer;
+}
+
+.post_preview:hover button {
+  visibility: visible;
+}
